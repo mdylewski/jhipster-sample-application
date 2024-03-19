@@ -1,0 +1,14 @@
+{
+  "annotations": {
+    "changelogDate": "20240319153027"
+  },
+  "applications": ["myApp", "myApp2"],
+  "clientRootFolder": "myApp2",
+  "databaseType": "sql",
+  "entityTableName": "c",
+  "fields": [],
+  "microserviceName": "myApp2",
+  "name": "C",
+  "relationships": [],
+  "searchEngine": "no"
+}

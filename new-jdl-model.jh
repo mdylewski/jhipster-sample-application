@@ -1,0 +1,48 @@
+
+application {
+  config {
+    baseName myApp
+    applicationType gateway
+    packageName com.myapp
+    authenticationType jwt
+    prodDatabaseType mysql
+    clientFramework react
+  }
+  entities *
+}
+
+application {
+  config {
+    baseName myApp1
+    applicationType microservice
+    packageName com.myapp
+    authenticationType jwt
+    prodDatabaseType mysql
+  }
+  entities A, B
+}
+
+application {
+  config {
+    baseName myApp2
+    applicationType microservice
+    packageName com.myapp
+    authenticationType jwt
+    prodDatabaseType postgresql
+  }
+  entities C
+}
+
+entity A {
+ deparure String required
+}
+
+entity B {}
+
+entity C {}
+
+entity D {}
+
+relationship OneToMany {
+  A to B
+}
