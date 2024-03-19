@@ -1,0 +1,22 @@
+{
+  "generator-jhipster": {
+    "applicationIndex": 2,
+    "applicationType": "microservice",
+    "authenticationType": "jwt",
+    "baseName": "myApp2",
+    "entities": ["C"],
+    "jhipsterVersion": "8.1.0",
+    "jwtSecretKey": "NTU0NjNhODFmZDI5YmMyNzY1Mzc4MzlhZDMyOGU5OThlZjEyNTAxMWQ2MzQ1YTcyNzY2NGY0M2MzNDMzNTRlM2Y2N2M5MGI0MmVlNmI5MDMwZTMyMzRhNmViMDE1MzljNmQ0N2M0MTYzNGUxOTAxNzUzMWY4ZGM2ZWE5OTk0Y2Y=",
+    "languages": ["en"],
+    "lastLiquibaseTimestamp": 1710862227000,
+    "monorepository": true,
+    "nativeLanguage": "en",
+    "packageFolder": "com/myapp",
+    "packageName": "com.myapp",
+    "prodDatabaseType": "postgresql",
+    "serverPort": 8082,
+    "skipClient": true,
+    "skipCommitHook": true,
+    "skipUserManagement": true
+  }
+}

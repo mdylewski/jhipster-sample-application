@@ -1,0 +1,12 @@
+{
+  "annotations": {
+    "changelogDate": "20240319153327"
+  },
+  "applications": ["myApp"],
+  "databaseType": "sql",
+  "entityTableName": "d",
+  "fields": [],
+  "name": "D",
+  "relationships": [],
+  "searchEngine": "no"
+}

@@ -1,0 +1,26 @@
+{
+  "annotations": {
+    "changelogDate": "20240319153027"
+  },
+  "applications": ["myApp", "myApp1"],
+  "databaseType": "sql",
+  "entityTableName": "a",
+  "fields": [
+    {
+      "fieldName": "deparure",
+      "fieldType": "String",
+      "fieldValidateRules": ["required"]
+    }
+  ],
+  "name": "A",
+  "relationships": [
+    {
+      "otherEntityName": "b",
+      "otherEntityRelationshipName": "a",
+      "relationshipName": "b",
+      "relationshipSide": "left",
+      "relationshipType": "one-to-many"
+    }
+  ],
+  "searchEngine": "no"
+}
